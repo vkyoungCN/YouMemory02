@@ -33,8 +33,8 @@ public final class YouMemoryContract {
         public static final String COLUMN_DESCRIPTION = "mission_description";
     }
 
-    public static class MissionGroupCross implements BaseColumns{
-        public static final String TABLE_NAME ="mission_group_cross";
+    public static class MissionCrossGroup implements BaseColumns{
+        public static final String TABLE_NAME ="mission_cross_group";
         public static final String COLUMN_MISSION_ID = "mission_id";
         public static final String COLUMN_GROUP_ID = "group_id";
     }
@@ -48,8 +48,8 @@ public final class YouMemoryContract {
         public static final String COLUMN_SPECIAL_MARK = "special_mark";
     }
 
-    public static class GroupItemCross implements BaseColumns{
-        public static final String TABLE_NAME = "group_item_cross";
+    public static class GroupCrossItem implements BaseColumns{
+        public static final String TABLE_NAME = "group_cross_item";
         public static final String COLUMN_GROUP_ID = "group_id";
         public static final String COLUMN_ITEM_ID = "item_id";
     }
